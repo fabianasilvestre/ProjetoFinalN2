@@ -1,0 +1,53 @@
+    body { 
+        
+        background-image:url("background.png");
+        background-position: center;
+        background-size: 1280px;
+        
+    }
+    
+    #nav {
+        
+        width:960px; 
+        margin: 10px 0; 
+        background:black ; 
+        float: left;
+        border-radius: 5px ; 
+        text-align: center ; 
+        padding:10px;
+            
+    }
+    
+    #nav ul { 
+        
+        margin:0; 
+        padding:0; 
+        list-style: none; 
+        width: 100%; 
+        float: left;
+        
+    }
+    
+    #nav ul li {
+        
+        float: left; 
+        font: 16px verdana; 
+        font-weight: bold
+        
+    }
+    
+    #nav ul li a {
+        
+        color:#E8E8E8; 
+        text-decoration: none; 
+        padding: 8px 100px; 
+        display:block;
+        
+    }
+    
+    #nav ul li a:hover {
+        
+        color:#47FF0C;
+        
+    }
+    
