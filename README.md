@@ -1,4 +1,4 @@
 # ProjetoFinalN2
 
-Nome: Joyce de Sousa Gomes
-Nome: Guilherme Udo
+Nome: Joyce de Sousa Gomes TIA: 31657591
+Nome: Guilherme Udo TIA: 31635938
