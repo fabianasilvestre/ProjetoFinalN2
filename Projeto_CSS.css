@@ -142,8 +142,10 @@ opacity: .5;
 }
 
 .header {
+position: fixed;
 padding: 15px;
 background: #000;
+padding-right: 945px;
 }
 .header .slideout-menu-toggle {
 font-size: 1.2em;
