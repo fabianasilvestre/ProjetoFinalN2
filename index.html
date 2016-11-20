@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Página Inicial</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+    <link href="sticky-footer.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script> 
+
+    <style type="text/css">
+      .coluna > h2 {
+        font-size: 2.4em;
+      }
+
+      img.preencher {
+        display: block;
+        width: 100%;
+        height: auto;
+        opacity: 0;
+      }
+
+      div > ul > li > ul > li > a {
+        font-size: 1em;
+      }
+
+      @media (min-width: 1200px) {
+        .container{
+            max-width: 80%;
+        }
+      }
+
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Navegação</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Serious Series People</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="artigo-sobre.html">Sobre</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Séries<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="artigo-friends.html">Friends</a></li>
+                  <li><a href="artigo-black-mirror.html">Black Mirror</a></li>
+                  <li><a href="artigo-the-walking-dead.html">The Walking Dead</a></li>
+                  <li><a href="artigo-game-of-thrones.html">Game of Thrones</a></li>
+                  <li><a href="artigo-how-i-met-your-mother.html">How I Met Your Mother</a></li>
+                  <li><a href="artigo-the-big-bang-theory.html">The Big Bang Theory</a></li>
+                  <li><a href="artigo-breaking-bad.html">Breaking Bad</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+    </div> <!-- /container -->
+
+    <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url('img/friends.jpg'); background-size: cover; background-position: center;">
+              <a href="artigo-friends.html"><img class="preencher" src="img/friends.jpg"></a>
+                <div class="carousel-caption">
+                    <h2>Friends</h2>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('img/black-mirror-grande.jpg'); background-size: cover; background-position: center;">
+              <a href="artigo-black-mirror.html"><img class="preencher" src="img/friends.jpg"></a>
+                <div class="carousel-caption">
+                    <h2>Black Mirror</h2>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('img/the-walking-dead-grande.jpg'); background-size: cover; background-position: center;">
+              <a href="artigo-the-walking-dead.html"><img class="preencher" src="img/friends.jpg"></a>
+                <div class="carousel-caption">
+                    <h2>The Walking Dead</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+        <div class="container clearfix">
+        <!-- ARTIGOS DO SITE -->
+        <section class="principal">
+      <div class="coluna">
+        <figure class="foto"><img src="img/breaking-bad-pequeno.jpg"></figure>
+        <a href="artigo-breaking-bad.html"><h2>Breaking Bad</h2></a>
+        <p>Breaking Bad é uma premiada série de televisão estadunidense criada e produzida por Vince Gilligan que retrata a vida do químico Walter White, um homem brilhante frustrado em dar aulas para adolescentes do ensino médio enquanto lida com um filho sofrendo de paralisia cerebral, uma esposa grávida e dívidas intermináveis.  </p>
+      </div>
+
+      <div class="coluna">
+        <figure class="foto"><img src="img/how-i-met-your-mother-pequeno.jpg"></figure>
+        <a href="artigo-how-i-met-your-mother.html"><h2>How I Met Your Mother</h2></a>
+        <p>How I Met Your Mother foi uma premiada sitcom estadunidense da CBS criada por Carter Bays e Craig Thomas. Estreou no dia 19 de setembro de 2005. A temporada 2013-14, sua nona edição, é a última, encerrando-se em 31 de março de 2014, após 208 episódios.</p>
+      </div>
+
+      <div class="coluna">
+        <figure class="foto"><img src="img/got-pequeno.jpg"></figure>
+        <a href="artigo-game-of-thrones.html"><h2>Game of Thrones</h2></a>
+        <p>Game of Thrones é uma série de televisão norte-americana criada para a HBO. A série é baseada na série de livros As Crônicas de Gelo e Fogo, escritos por George R. R. Martin. Game of Thrones está sendo filmada principalmente no Paint Hall Studios, em Belfast, e em outras localizações na Irlanda do Norte, Espanha, Navarra, Marrocos, Malta, Croácia e Islândia.</p>
+      </div>
+
+      <div class="coluna">
+        <figure class="foto"><img src="img/the-big-bang-theory-pequeno.jpg"></figure>
+        <a href="artigo-the-big-bang-theory.html"><h2>The Big Bang Theory</h2></a>
+        <p>The Big Bang Theory, frequentemente abreviada como "TBBT", é uma série de televisão norte-americana de comédia de situação criada por Chuck Lorre e Bill Prady, que estreou no canal CBS em 22 de setembro de 2007.</p>
+      </div>
+
+      </section>
+      </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Desenvolvido por Daniel Dias de Lima e Joyce Sousa Gomes para o projeto final de Web Mobile.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
