@@ -1,0 +1,88 @@
+#im1{
+    width:420px; 
+    height:70px;
+}
+li a input{
+    width: 138px;
+    background-color:azure;
+}
+nav ul li{
+    margin-top: 35px;
+}
+#img2{
+    float: left;
+    border-radius: 10px;
+}
+#img2 img{
+    width: 400px
+}
+li {
+    float: left ;
+    list-style: none;
+    padding: 5px;
+}
+
+body{
+    margin: 0px auto;
+    width: 985px;
+    background-image: url(img/backgound1.jpg);
+    background-size: 100%;
+    background-position:top;
+    background-attachment: fixed;
+}
+#body{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 985;
+    border-radius: 10px;
+}
+#img1{
+    ;
+    width: 903px;
+    height: 300px                                                    
+}
+li a input:hover{
+    background-color:black;
+    color: white
+}
+footer p{
+    font-size: 23px
+}
+*{
+    font-family: arial;
+    
+}
+
+
+#imgPortifolio li img{
+    width: 450px;
+    height: 256px;
+    float: none;
+                    
+}
+h3{
+    text-align: justify;
+}
+p {
+}
+
+#apDiv3 {
+    
+    
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 13px;
+    
+    
+}
+#apDiv3 form{
+    margin: 10px;
+    
+    
+} 
+#img3{
+    width: 904px
+}
+.fotos img{
+    width: 245px;
+    margin: 40px
+}

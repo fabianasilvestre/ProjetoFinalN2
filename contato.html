@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link href="celular.css"  media="screen and (max-width: 380px)" rel="stylesheet">
+        <link href="leptop.css"  media="screen and (min-width: 381px)" rel="stylesheet">
+        
+        <script type="text/javascript" src="js/js.js"></script>
+    </head>
+    <body>
+        <div id="body">
+        <header>
+            <figure id="img2">
+                <a href="home.html"><img src="img/LOGO.png" width="420px" height="70px" alt="img1"></a>
+            </figure>
+            <nav>
+                <ul>
+                    <li><a href="home.html"><input type="button" value="Home"></a></li>
+                    <li><a href="contato.html"><input type="button" value="Contato"></a></li>
+                   <li><a href="portifolio.html"><input type="button" value="fotos"></a></li>
+                </ul>
+            </nav>
+            <br><br><br><br><br>
+        </header>       
+        <br><br>
+        <article class="banner">
+            <figure>
+                <img onclick="troca1()" id="img1"src="img/slide1.jpg" alt="banner1">
+            </figure>
+        </article>
+         <div id="apDiv3">
+    <form id="form1" name="form1" method="post" action="">
+      <p>
+        <label for="nome2" ><span class="centralizar" style="margin-right: 20px;">Nome :</span></label>
+      <input name="nome" type="text" id="nome2"  />
+      </p>
+      <p>
+        <label for="email" style="margin-right: 17px;"><span class="centralizar">E-mail :</span></label>
+        <input name="email" type="text" id="email"  />
+      </p> 
+      <p>
+        <label for="empresa2"><span class="centralizar">Empresa :</span>
+        </label>
+        <input name="empresa" type="text" id="empresa2"  />
+        <label for="telefone"><br />
+          <br />
+        <span class="centralizar">Telefone :</span></label>
+        
+        <input name="telefone" type="text" id="telefone"  />
+      </p>
+      <p>
+        <label for="assunto7" class="centralizar">Assunto</label>
+        <select name="assunto" id="assunto7">
+          <option value="sel">Selecione</option>
+          <option value="sugestao" selected="selected">Sugestão</option>
+          <option value="Aniversario">Aniversario</option>
+          <option value="Casamento">Casamento</option>
+          <option value="Formatura">Formatura</option>
+          <option value="Book">Book</option>
+            <option value="Outros">Outros</option>
+        </select>
+      </p>
+      <p>
+        <label for="sugestao"><span class="centralizar">Mensagem :</span><br />
+          <br />
+          <textarea class="tex" name="sugestao" id="sugestao" cols="42" rows="5"></textarea>
+          <br />
+        </label>
+      </p>
+      <p align="center">Como nos Encontrou?      </p>
+      <p>
+        <input type="radio" name="radio" id="buscador" value="buscador" />
+        <label for="buscador">Buscador</label>
+        <input type="radio" name="radio" id="radio" value="radio" />
+        <label for="radio">Indicação </label>
+        <input type="radio" name="radio2" id="radio2" value="radio2" />
+        <label for="radio2">Outro</label>
+      </p>
+      <p align="right" style="float:left;"><a href="javascript:;" onclick="MM_validateForm('nome2','','R','email','','RisEmail','empresa2','','R','telefone','','RinRange11:20');return document.MM_returnValue"><img id="bEnviar" src="img/botaoEnviar.png" alt="enviar" width="128" height="40" class="centralizar" border="0" /></a></p>
+    </form>
+        </div> 
+           <footer>
+               <p align="center"> Rua da Consolação, 930 - Consolação, São Paulo - SP, 01302-907, Brasil <br>
+            Tel.:(11) 5844-2510 </p>               
+           </footer>
+        </div>
+    </body>
+</html>
+        
