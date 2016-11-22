@@ -1,0 +1,135 @@
+body {background-color: #303030;
+      width:100%;
+      height:100%;
+      font-size: 1em;
+}
+
+nav	{
+	width: 100%;
+	height: 100%; 
+	margin: 7%; 
+	z-index: 99; 
+	position: center; 
+	background-color:none;
+    
+}
+
+.navbar	{
+	position: absolute;
+    left:23%;
+    top:0.00104%;
+    width:100%;
+    height:100%; 
+    
+}
+
+.navbar li {
+	height:5.6%;
+	width:15.5%;
+	float:left; 
+	text-align:center;
+	list-style: none;  
+	padding: 1px 1px 1px 1px;
+	margin: 0%;
+	background-color:black;
+    border-style: ridge;
+    border-width: 0.1%;
+    border-radius: 2em;
+    border-color: #47e10c;
+    
+}
+
+.navbar a	{							
+	padding: 1px 1px 2px 1px;
+	text-decoration: none;  
+	color:darkgrey;
+	display: block;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 3px;
+    
+}
+
+.navbar li:hover, a:hover {
+	background-color:#47e10c;
+    color: white;
+    border-radius: 2em;
+    
+}
+
+li ul 	{
+	display: none; 
+	height: 220px;									
+	margin: 1%; 
+	padding: 1px 1px 1px 1px;
+    border-radius: 2em;
+    
+}
+
+.navbar li:hover ul{
+	display:block;
+    padding: 10% 10% 10% 10%;
+}
+
+.navbar li ul li {
+	background-color: black;
+    border-style:ridge;
+    border-radius: 2em;
+    border-color: #47e10c;
+    margin: 1%; 
+	padding: 10% 10% 10% 10%;
+    width: 80%;
+} 
+
+				
+.navbar li ul li a:hover	{
+    color: white;
+}
+
+.form { background-color:black; 
+}
+
+#title { background-color: #47e10c;
+}
+
+#botao { background-color: bisque;
+}
+
+.cor { color: white;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 1em;
+}
+
+.mouse1 { position: relative;
+    float: left;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    body {background-color: aliceblue;
+          font-size: 12px;}
+    .cor {color:black;}
+
+}
+
+@media screen and (max-width: 320px) {
+   body {background-color: #7e0c0c;
+         font-size: 11px;}
+    #fdp {max-width: 15%;}
+    nav  {margin: 18%;}
+    li ul 	{height: 500%;}
+}
+@media screen and (min-width: 960px) {
+  body {background-color: #303030;
+      font-size: 16px;}
+}
+
+img {
+    -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 0.20em solid rgba(0, 0, 0, 0.12);
+    border-radius: 6.25em;
+    display: block;
+    margin: 2.1666667% auto;
+    max-width: 90%;
+}
