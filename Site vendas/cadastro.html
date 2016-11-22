@@ -1,0 +1,49 @@
+<!Doctype html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <meta charset="utf-8">
+        <title>Cadastro MK</title>    
+    </head>
+    <body>
+        <header>
+            <h1><img src="img/mk.jpg" style="position:absolute; left: 10%; top: -2%;"></h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="site.html">Produtos</a>
+                        <ul>
+                            <li><a href="mouse.html" >Mouse</a></li>
+                            <li><a href="teclado.html" >Teclado</a></li>
+                            <li><a href="cadeira.html" >Cadeira</a></li>
+                            <li><a href="fone.html" >Fone</a></li>
+                            
+                        </ul>
+                     </li>
+                    <li><a href="carrinho.html" >Carrinho</a></li>
+                    <li><a href="cadastro.html" >Cadastro</a></li>
+                </ul>
+             </nav>
+        </header>
+        <h2 class="cor">Cadastro</h2>
+        <p class="cor">Faça seu cadastro para efetuar compras e recber promoçoes de nosso site.</p>
+        <section class="form">
+        <form name="f1">
+					<p id="title"><label for="name">Nome completo:</label></p>
+					<input  type="text" name="name" value="" placeholder="Nome" size='45'>
+                    <p id="title"><label for="name">Endereço:</label></p>
+					<input  type="text" name="Rua" value="" placeholder="Rua" size='45'><br>
+                    <input type="number" name="Numero" value="" placeholder="Numero"><br>
+                    <input  type="text" name="Bairro" value="" placeholder="Bairro" size='45'><br>
+                    <input  type="text" name="Cidade" value="" placeholder="Cidade" size='45'><br>
+                    <input type="number" name="CEP" value="" placeholder="Cep(xxxxx-xxx)">
+					<p id="title"><label for="email">Email:</label></p>
+					<input type="text" name="email" value="" placeholder="Email" maxlength="60" size='45' onblur="validacaoEmail(f1.email)" id="msgemail">
+                    <p id="title"><label for="name">Senha:</label></p>
+					<input type="password" name="password" value="" placeholder="Senha" size="10">
+                    <p id="title"><label for="number">Telefone:</label></p>
+					<input type="number" name="number" value="" placeholder="(xx)xxxxxxxx">
+					<center><p id="botao"><input type="submit" value="Enviar"></center>
+        </form>
+        </section>
+</body>
+    
